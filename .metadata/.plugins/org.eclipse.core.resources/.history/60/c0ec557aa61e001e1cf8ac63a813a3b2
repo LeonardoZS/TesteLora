@@ -110,8 +110,6 @@ int main(void)
 	  // Send packet can be as simple as
 	  uint8_t res = lora_send_packet(&lora, (uint8_t *)"test", 4);
 	  if (res != LORA_OK) {
-
-
 	    // Send failed
 	  }
     /* USER CODE BEGIN 3 */
